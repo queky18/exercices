@@ -1,0 +1,37 @@
+* {
+    margin : 0;
+}
+
+.container { 
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family : 'Times New Roman', Times, serif;
+    font-size : 3em;
+    border-bottom : 2px solid blue;
+    border-right : 2px solid blue;
+    width : 400px;
+    margin-top : 10px;
+    padding-left : 15px;
+    box-shadow : 2px 4px 5px grey;
+    -moz-box-shadow : 2px 4px 5px grey;
+    -ms-box-shadow : 2px 4px 5px grey;
+    -webkit-box-shadow : 2px 4px 5px grey;
+    -o-box-shadow : 2px 4px 5px grey;
+}
+
+img {
+    width : 450px;
+    height : 300px;
+    margin : 10px;
+    transition : all 0.5s;
+}
+
+img:hover { 
+    transform : scale(1.06);
+    box-shadow : 15px 4px 5px grey;
+}
