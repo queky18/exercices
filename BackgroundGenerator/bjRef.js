@@ -34,3 +34,6 @@ class Wizard extends Player {
 
 const wizard1 = new Wizard( "Adrianos", "Healer");
 const wizard2 = new Wizard("Typulus", "Dark Magic");
+
+wizard1.play();
+wizard1.introduce();
