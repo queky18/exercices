@@ -1,5 +1,4 @@
-import { without } from "lodash";
-
+var _ = require("lodash");
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
